@@ -38,7 +38,6 @@ class Board extends React.Component {
       squares: squares,
       xIsNext: !this.state.xIsNext
     })
-    calculateWinner(i)
   }
     renderSquare(i) {
         return (
